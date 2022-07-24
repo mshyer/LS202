@@ -54,7 +54,9 @@
 			border-spacing: 0;
 		}
 /*Reset*/
-
+	html {
+		font-size: 24px;
+	}
   	body {
   		font-family: Helvetica, Arial, sans-serif;
   	}
@@ -63,15 +65,15 @@
   		display: block;
   		box-sizing: border-box;
   		background-color: white;
-  		min-width: 373px;
+/*  		min-width: 373px;
   		min-height: 732px;
   		max-width: 373px;
-  		max-height: 732px;
-/*  		min-width: 684 px;
-  		min-height: 1342px;
-  		max-width: 684;
-  		max-height: 1342px;*/
-  		padding: 0 5px 0 5px;
+  		max-height: 732px;*/
+  		min-width: 684 px;
+  		min-height: 1200;
+  		max-width: 684px;
+  		max-height: 1200;
+  		padding: .5rem .5rem .5rem .5rem;
   		border: 2px solid black;
   		margin: 5px 5px;
   	}
@@ -81,19 +83,20 @@
   	}
   	header p {
   		line-height: .75rem;
+  		font-size: 1.25rem;
   	}
   	em {
   		font-style: italic;
   	}
   	p {
   		margin-top: 0.5rem;
-  		margin-bottom: 0.5rem;
+  		margin-bottom: .75rem;
   	}
 
   	article > p {
-  		font-size: .85rem;
+  		font-size: 1.1rem;
   		margin-left: .75rem;
-  		text-indent: -.5rem;
+  		text-indent: -.75rem;
   	}
 
   	h1 {
@@ -147,13 +150,14 @@
 
   	article table:nth-of-type(2) tbody {
   		border-top: 1px solid black;
+  		padding-bottom: 5px;
   	}
   	article table:nth-of-type(2) tr {
   		border-bottom: 0;
-  		line-height: 0.9rem;
+  		line-height: 1.2rem;
   	}
   	article table:nth-of-type(2) tr * {
-  		font-size: .8rem;
+  		font-size: 1rem;
   	}
   	article table:nth-of-type(2) tr td {
   		display: inline-block;
@@ -174,7 +178,7 @@
   		font-size: 1rem;
   	}
   	.indented-table-data {
-  		padding-left: 15px;
+  		padding-left: 1rem;
 
   	}
   	tr td:nth-child(2) {
